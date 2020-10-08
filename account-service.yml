@@ -3,7 +3,7 @@ security:
     client:
       clientId: account-service
       client-secret: my-account-service-password
-      accessTokenUri: http://gateway/uaa/oauth/token
+      accessTokenUri: http://swisshackathonspringcloud-gateway.azuremicroservices.io/uaa/oauth/token
       grant-type: client_credentials
       scope: server
 
